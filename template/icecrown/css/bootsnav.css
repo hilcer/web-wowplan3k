@@ -61,8 +61,7 @@ nav.navbar.bootsnav ul.nav > li > a{
 nav.navbar.bootsnav ul.nav li.megamenu-fw > a:hover,
 nav.navbar.bootsnav ul.nav li.megamenu-fw > a:focus,
 nav.navbar.bootsnav ul.nav li.active > a:hover,
-nav.navbar.bootsnav ul.nav li.active > a:focus,
-nav.navbar.bootsnav ul.nav li.active > a{
+nav.navbar.bootsnav ul.nav li.active > a:focus{
     background-color: transparent;
 }
 
@@ -1058,6 +1057,22 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     
     nav.navbar.bootsnav ul.navbar-nav.navbar-left > li:last-child > ul.dropdown-menu{
         border-bottom: solid 1px #e0e0e0;
+    }
+
+    nav.navbar.bootsnav ul.navbar-nav.navbar-left > li{
+        background-color: black;
+    }
+
+    nav.navbar.bootsnav ul.navbar-nav.navbar-left > li > a{
+        margin-left: 20px;
+    }
+
+    nav.navbar.bootsnav ul.navbar-nav.navbar-right > li{
+        background-color: black;
+    }
+
+    nav.navbar.bootsnav ul.navbar-nav.navbar-right > li > a{
+        margin-left: 20px;
     }
     
     nav.navbar.bootsnav ul.nav li.dropdown li a.dropdown-toggle{
